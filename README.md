@@ -54,7 +54,7 @@ If you use this code or data in your work, please cite:
 ```bibtex
 @article{YourCitation2024,
   title     = {Development and Validation of a Deep Learning-Enabled Single Breath-Hold Abbreviated MRI (DL-SBH-aMRI) for Hepatocellular Carcinoma Diagnosis: A Multicenter, Prospective, and Retrospective Study},
-  author    = {Author Names},
+  author    = {Yunfei et al},
   journal   = {Submitted and In Review},
   year      = {2025},
   note      = {Available at: https://github.com/yunfei920406/DL-SBH-aMRI}
