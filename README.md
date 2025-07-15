@@ -1,4 +1,4 @@
-# Official Implementation of Virtual Liver CE-MRI
+# Official Implementation of  Deep Learning-Enabled Single Breath-Hold Abbreviated MRI (DL-SBH-aMRI)
 
 This is the official implementation of the project: **Development and Validation of a Deep Learning-Enabled Single Breath-Hold Abbreviated MRI (DL-SBH-aMRI) for Hepatocellular Carcinoma Diagnosis: A Multicenter, Prospective, and Retrospective study**.
 
