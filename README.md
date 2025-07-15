@@ -12,4 +12,4 @@ Panels **A–D** present side-by-side visual comparisons of cMRI (top rows, all 
 
 
 
-
+![Representative Cases](https://github.com/yunfei920406/DL-SBH-aMRI/blob/main/Some%20Representative%20Images/Case.jpg)
