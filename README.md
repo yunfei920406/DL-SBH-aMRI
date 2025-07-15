@@ -1,15 +1,61 @@
-# Official Implementation of  Deep Learning-Enabled Single Breath-Hold Abbreviated MRI (DL-SBH-aMRI)
+# 🧠 Official Implementation of Deep Learning-Enabled Single Breath-Hold Abbreviated MRI (DL-SBH-aMRI)
 
-This is the official implementation of the project: **Development and Validation of a Deep Learning-Enabled Single Breath-Hold Abbreviated MRI (DL-SBH-aMRI) for Hepatocellular Carcinoma Diagnosis: A Multicenter, Prospective, and Retrospective study**.
+This repository contains the **official implementation** of the project:
+
+> **Development and Validation of a Deep Learning-Enabled Single Breath-Hold Abbreviated MRI (DL-SBH-aMRI) for Hepatocellular Carcinoma Diagnosis: A Multicenter, Prospective, and Retrospective Study**
 
 ---
 
-### Representative Cases of DL-SBH-aMRI and complete MRI
+## 📄 Table of Contents
 
-The following figure shows the representative comparisons between DL-SBH-aMRI and ground truth conventional complete MRI (cMRI) across diverse hepatic lesion types.
+- [Overview](#overview)
+- [Representative Results](#representative-results)
+- [Citation](#citation)
+- [License](#license)
 
-Panels **A–D** present side-by-side visual comparisons of cMRI (top rows, all sequences were acquired through MRI scanning) and DL-SBH-aMRI (bottom rows, comprising acquired Pre-T1 and synthetic sequences generated via Li-DiffNet) for four distinct hepatic lesion types: **(A)** HCC, **(B)** hepatic hemangioma, **(C)** intrahepatic cholangiocarcinoma (ICC), and **(D)** hepatic cyst. In DL-SBH-aMRI, only the Pre-T1 is acquired through MRI scanning and all subsequent sequences are synthesized using the proposed Li-DiffNet. For direct visual comparison, the same Pre-T1 image from a single patient is repeatedly shown in each row of every panel. Yellow arrows indicate lesion locations. The four cases were all from the external validation group. 
+---
 
+## 🧬 Overview
 
+This is the official implementation of  **Deep Learning–Enabled Single Breath-Hold Abbreviated MRI (DL-SBH-aMRI)** protocol for HCC diagnosis.
 
-![Representative Cases](https://github.com/yunfei920406/DL-SBH-aMRI/blob/main/Some%20Representative%20Images/Case.jpg)
+**Objective:** The goal is to develop a Deep Learning–Enabled Single Breath-Hold Abbreviated MRI (DL-SBH-aMRI) protocol for HCC diagnosis.
+
+**Conclusion:** DL-SBH-aMRI enables gadolinium-free, ultra-fast imaging within a single breath-hold, while preserving full-sequence diagnostic information and achieving performance comparable to conventional MRI, representing a promising and cost-effective alternative for HCC diagnosis.
+
+---
+
+## 🖼 Representative Results
+
+The figure below presents representative **comparisons between DL-SBH-aMRI and complete full-sequence MRI (cMRI)** across four common hepatic lesion types.
+
+<img src="https://github.com/yunfei920406/DL-SBH-aMRI/blob/main/Some%20Representative%20Images/Case.jpg" alt="Representative Cases" width="100%">
+
+### 🔍 Description
+
+- Each panel (**A–D**) shows:
+  - **Top row**: Ground-truth cMRI (all sequences acquired).
+  - **Bottom row**: DL-SBH-aMRI results (only Pre-T1 acquired; others synthesized by **Li-DiffNet**).
+- The same Pre-T1 image is used for alignment across sequences.
+- **Lesion types**:
+  - **A**: Hepatocellular carcinoma (HCC)
+  - **B**: Hepatic hemangioma
+  - **C**: Intrahepatic cholangiocarcinoma (ICC)
+  - **D**: Hepatic cyst
+- **Yellow arrows** mark lesion locations.
+- All cases are from the **external validation cohort**.
+
+---
+
+## 📚 Citation
+
+If you use this code or data in your work, please cite:
+
+```bibtex
+@article{YourCitation2024,
+  title     = {Development and Validation of a Deep Learning-Enabled Single Breath-Hold Abbreviated MRI (DL-SBH-aMRI) for Hepatocellular Carcinoma Diagnosis: A Multicenter, Prospective, and Retrospective Study},
+  author    = {Author Names},
+  journal   = {Submitted and In Review},
+  year      = {2025},
+  note      = {Available at: https://github.com/yunfei920406/DL-SBH-aMRI}
+}
